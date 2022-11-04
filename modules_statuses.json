@@ -1,3 +1,7 @@
 {
-    "Accounts": true
+    "Accounts": true,
+    "Countries": true,
+    "Support": true,
+    "Stores": true,
+    "Contracts": true
 }

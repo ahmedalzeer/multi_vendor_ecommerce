@@ -21,6 +21,7 @@ return new class extends Migration
             $table->boolean('dark_mode')->default(0);
             $table->string('messenger_color')->default('#2180f3');
             $table->boolean('active_status')->default(0);
+            $table->string('avatar')->default(config('chatify.user_avatar.default'));
             $table->string('phone')->unique()->nullable();
             $table->timestamp('phone_verified_at')->nullable();
             $table->timestamp('email_verified_at')->nullable();

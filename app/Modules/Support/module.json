@@ -1,0 +1,11 @@
+{
+    "name": "Support",
+    "alias": "support",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "App\\Modules\\Support\\Providers\\SupportServiceProvider"
+    ],
+    "files": []
+}
